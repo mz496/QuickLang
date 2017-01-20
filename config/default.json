@@ -1,6 +1,6 @@
 {
-    "appSecret": "",
-    "pageAccessToken": "",
-    "validationToken": "",
-    "serverURL": ""
+    "appSecret": "236902157e19cf7323ff9d1f40aab52d",
+    "pageAccessToken": "EAABeOuac11cBAHy8SbVUp7IkrZCjeX03vlbSPAeCdE0BQaZCIZCzEvwNJkkwTc92rfg4VsXnFEFGenVeLfJrmz6KfVPFypFil7R0ZC4UcjZBbfZCeDWsjrUYlJccm2pW4ZCNAw7JXj9dsmzxAMDYrCsoCLxHSMDkDy37TO9KmKvVAZDZD",
+    "validationToken": "iforgotwhatiputnospaces",
+    "serverURL": "/webhook"
 }
