@@ -830,7 +830,7 @@ function callSendAPI(messageData) {
 }
 
 app.get('/', function(req, res){
-    res.sendfile('index.html', { root: SERVER_URL + "/index.html" } );
+    res.sendfile(SERVER_URL + '/index.html', { root: SERVER_URL + "/index.html" } );
 });
 
 // Start server
