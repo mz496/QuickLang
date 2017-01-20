@@ -56,6 +56,8 @@ if (!(APP_SECRET && VALIDATION_TOKEN && PAGE_ACCESS_TOKEN && SERVER_URL)) {
   process.exit(1);
 }
 
+
+
 /*
  * Use your own validation token. Check that the token used in the Webhook 
  * setup is the same token used here.
@@ -826,6 +828,10 @@ function callSendAPI(messageData) {
     }
   });  
 }
+
+app.get('/', function(req, res){
+    res.sendfile('index.html', { root: SERVER_URL + "/index.html" } );
+});
 
 // Start server
 // Webhooks must be available via SSL with a certificate signed by a valid 
