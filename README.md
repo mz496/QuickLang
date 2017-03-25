@@ -1,6 +1,6 @@
-# QuickLang -- node.js
+# QuickCalendar -- node.js
 
-This project is an example server for Messenger Platform built in Node.js. With this app, you can send it messages and it will echo them back to you. You can also see examples of the different types of Structured Messages. 
+This project is an example server for Messenger Platform built in Node.js. With this app, you can send it events to remind you and it will send you those reminders at the set time.. You can also see examples of the different types of Structured Messages. 
 
 It contains the following functionality:
 
